@@ -19,6 +19,7 @@
     width: 100%;
     height: fit-content;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
@@ -97,4 +98,25 @@
 .addresse p{
     text-align: center;
     font-size: 18px;
+}
+
+@media screen and (max-width: 750px){
+    .header{
+        width: 100%;
+        margin-top: 0;
+    }
+    body{
+        width: 100%;
+    }
+
+    .main{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .main .image{
+        width: 60%;
+    }
 }
