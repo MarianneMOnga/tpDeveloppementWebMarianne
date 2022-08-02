@@ -1,0 +1,100 @@
+
+.header{
+
+    border: solid;
+    border-color:#aaaaaa;
+    border-right: 5px;
+    height: 250px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    background-image: url(phot1.jpg);
+    background-size: cover;
+    
+    
+}
+
+.main{
+    margin-top: 50px;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main .image{
+    width: 50%;
+    height: 400px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.main .text__presentation{
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.main .text__presentation h2{
+    font-size: 45px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.main .text__presentation p{
+    font-size: 25px;
+    color: #000;
+}
+
+.about{
+    width: 100%;
+    height: fit-content;
+}
+
+.about h2{
+    text-transform: uppercase;
+    font-size: 45px;
+    text-align: center;
+}
+
+
+.about .about__text p{
+    text-align: center;
+    margin: 30px 20px;
+}
+
+.about .about__text ul li{
+    list-style-type: none;
+    font-size: 25px;
+}
+
+.competences{
+    width: 100%;
+    height: fit-content;
+}
+
+.competences h2{
+    font-size: 50px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.competences p{
+    font-size: 18px;
+    text-align: center;
+}
+
+.addresse{
+    width: 100%;
+    height: fit-content;
+}
+
+.addresse h2{
+    font-size: 50px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.addresse p{
+    text-align: center;
+    font-size: 18px;
+}
